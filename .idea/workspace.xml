@@ -1,4 +1,259 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9be195f-3dba-4129-9de7-f73b9e605d1d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/safronova/CargoDimension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safronova/DeliveryD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safronova/ServiceWorkload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safronova/exceptions/FragileFarDeliveryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/safronova/exceptions/NoDistanceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DeliveryCostCalculationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Delivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/safronova/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/safronova/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeliveryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeliveryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DistanceCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DistanceCalculatorTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JUnit_Gradle_Selenium" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SafronovaOlga&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SafronovaOlga/JUnit_Gradle_Selenium.git&quot;,
+    &quot;accountId&quot;: &quot;7f14f565-121e-4ac0-9bf6-44f0ee478b2a&quot;
+  }
+}</component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2t1sPPicpurZbdRDTSrkp0Z2sfN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.DeliveryCostCalculationTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DeliveryCostCalculationTest.shouldGetFragilityCoefficientTrue.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DeliveryCostCalculationTest.shouldGetRightDimensionsCoefficient100.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DeliveryCostCalculationTest.shouldGetRightDimensionsCoefficient300.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DeliveryCostCalculationTest.test31KmDistanceFragileOrderCost.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DeliveryCostCalculationTest.test5KmDistanceWithVeryHighWorkloadOrderCost.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DeliveryCostCalculationTest.testCheapestOrder.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.DeliveryCostCalculationTest.testDeliveryCost.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DeliveryCostCalculationTest.testDenyDelivery.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DeliveryCostCalculationTest.testDenyDeliveryCost.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DeliveryCostCalculationTest.testMoreThanMinimalOrderCost.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DeliveryCostCalculationTest.testNegativeDistanceOrderCost.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DeliveryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DeliveryTest.shouldGetFragilityCoefficientTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DeliveryTest.testSizeCalculatorCalculateCost.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DistanceCalculatorTest.shouldGetFragilityCoefficientTrue.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DistanceCalculatorTest.testCalculateCost.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JUnit_Gradle_Selenium [:safronova.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;created/os/homeworks/02&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/olgasafronova/IdeaProjects/JUnit_Gradle_Selenium/src/main/java/safronova/Main.java&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Gradle.DeliveryCostCalculationTest.testDenyDelivery">
+    <configuration name="DeliveryCostCalculationTest.testCheapestOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;DeliveryCostCalculationTest.testCheapestOrder&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="DeliveryCostCalculationTest.testDeliveryCost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;DeliveryCostCalculationTest.testDeliveryCost&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="DeliveryCostCalculationTest.testDenyDelivery" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;DeliveryCostCalculationTest.testDenyDelivery&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="DeliveryCostCalculationTest.testDenyDeliveryCost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;DeliveryCostCalculationTest.testDenyDeliveryCost&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="DeliveryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;DeliveryTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.DeliveryCostCalculationTest.testDenyDelivery" />
+        <item itemvalue="Gradle.DeliveryCostCalculationTest.testDeliveryCost" />
+        <item itemvalue="Gradle.DeliveryCostCalculationTest.testDenyDeliveryCost" />
+        <item itemvalue="Gradle.DeliveryCostCalculationTest.testCheapestOrder" />
+        <item itemvalue="Gradle.DeliveryTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9be195f-3dba-4129-9de7-f73b9e605d1d" name="Changes" comment="" />
+      <created>1739530893029</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739530893029</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JUnit_Gradle_Selenium$DeliveryCostCalculationTest_testDenyDelivery.ic" NAME="DeliveryCostCalculationTest.testDenyDelivery Coverage Results" MODIFIED="1739875361970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/JUnit_Gradle_Selenium$DeliveryCostCalculationTest_testCheapestOrder.ic" NAME="DeliveryCostCalculationTest.testCheapestOrder Coverage Results" MODIFIED="1739870760266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+  </component>
 </project>

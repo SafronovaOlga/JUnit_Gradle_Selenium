@@ -1,5 +1,9 @@
 package safronova;
 
+import java.text.DecimalFormat;
+
+import static safronova.DeliveryD.MINIMUM_DELIVERY_AMOUNT;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main{
@@ -13,7 +17,7 @@ public class Main{
             
             double cost = calculateDeliveryCost(distance, size, isFragile, workload);
             System.out.println("Стоимость доставки: " + cost + " рублей");
-            // Стоимость доставки: 979.9999999999999 рублей
+            // Стоимость доставки: 980.0 рублей
         }
         
         public static double calculateDeliveryCost(double distance, String size, boolean isFragile, String workload) {
@@ -70,7 +74,8 @@ public class Main{
                 totalCost = 400;
             }
             
-            return totalCost;
+            DecimalFormat df = new DecimalFormat("###");
+            return Math.max(Double.parseDouble(df.format(totalCost)), MINIMUM_DELIVERY_AMOUNT);
         }
     
 }
