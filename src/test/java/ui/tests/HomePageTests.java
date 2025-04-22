@@ -1,1 +1,1 @@
-package ui.tests;public class HomePageTests{}
+package ui.tests;import org.junit.jupiter.api.Test;import org.openqa.selenium.WebDriver;import pages.HomePage;import static org.junit.jupiter.api.Assertions.assertEquals;import static pages.HomePage.BASE_URL;public class HomePageTests {        WebDriver driver;            @Test    void urlHomePage() {        HomePage homePage = new HomePage(driver);                assertEquals(BASE_URL, homePage.getCurrentUrl());    }    }

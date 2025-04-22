@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9be195f-3dba-4129-9de7-f73b9e605d1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/safronova/CargoDimension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/safronova/DeliveryD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/safronova/ServiceWorkload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/safronova/exceptions/FragileFarDeliveryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/safronova/exceptions/NoDistanceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DeliveryCostCalculationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Delivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/safronova/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/safronova/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DeliveryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeliveryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DistanceCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DistanceCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DialogBoxesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DialogBoxesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/WebFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/WebFormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/UtilPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/UtilPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/tests/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/tests/HomePageTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,36 +76,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.DeliveryCostCalculationTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.DeliveryCostCalculationTest.shouldGetFragilityCoefficientTrue.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.DeliveryCostCalculationTest.shouldGetRightDimensionsCoefficient100.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.DeliveryCostCalculationTest.shouldGetRightDimensionsCoefficient300.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.DeliveryCostCalculationTest.test31KmDistanceFragileOrderCost.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.DeliveryCostCalculationTest.test5KmDistanceWithVeryHighWorkloadOrderCost.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.DeliveryCostCalculationTest.testCheapestOrder.executor&quot;: &quot;Coverage&quot;,
-    &quot;Gradle.DeliveryCostCalculationTest.testDeliveryCost.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.DeliveryCostCalculationTest.testDenyDelivery.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.DeliveryCostCalculationTest.testDenyDeliveryCost.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.DeliveryCostCalculationTest.testMoreThanMinimalOrderCost.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.DeliveryCostCalculationTest.testNegativeDistanceOrderCost.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.DeliveryTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.DeliveryTest.shouldGetFragilityCoefficientTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.DeliveryTest.testSizeCalculatorCalculateCost.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.DistanceCalculatorTest.shouldGetFragilityCoefficientTrue.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.DistanceCalculatorTest.testCalculateCost.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.JUnit_Gradle_Selenium [:safronova.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;created/os/homeworks/02&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/olgasafronova/IdeaProjects/JUnit_Gradle_Selenium/src/main/java/safronova/Main.java&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.DeliveryCostCalculationTest.executor": "Run",
+    "Gradle.DeliveryCostCalculationTest.shouldGetFragilityCoefficientTrue.executor": "Run",
+    "Gradle.DeliveryCostCalculationTest.shouldGetRightDimensionsCoefficient100.executor": "Run",
+    "Gradle.DeliveryCostCalculationTest.shouldGetRightDimensionsCoefficient300.executor": "Run",
+    "Gradle.DeliveryCostCalculationTest.test31KmDistanceFragileOrderCost.executor": "Run",
+    "Gradle.DeliveryCostCalculationTest.test5KmDistanceWithVeryHighWorkloadOrderCost.executor": "Run",
+    "Gradle.DeliveryCostCalculationTest.testCheapestOrder.executor": "Coverage",
+    "Gradle.DeliveryCostCalculationTest.testDeliveryCost.executor": "Run",
+    "Gradle.DeliveryCostCalculationTest.testDenyDelivery.executor": "Run",
+    "Gradle.DeliveryCostCalculationTest.testDenyDeliveryCost.executor": "Run",
+    "Gradle.DeliveryCostCalculationTest.testMoreThanMinimalOrderCost.executor": "Run",
+    "Gradle.DeliveryCostCalculationTest.testNegativeDistanceOrderCost.executor": "Run",
+    "Gradle.DeliveryTest.executor": "Run",
+    "Gradle.DeliveryTest.shouldGetFragilityCoefficientTest.executor": "Run",
+    "Gradle.DeliveryTest.testSizeCalculatorCalculateCost.executor": "Run",
+    "Gradle.DistanceCalculatorTest.shouldGetFragilityCoefficientTrue.executor": "Run",
+    "Gradle.DistanceCalculatorTest.testCalculateCost.executor": "Run",
+    "Gradle.HomePageTests.urlHomePage.executor": "Run",
+    "Gradle.JUnit_Gradle_Selenium [:safronova.Main.main()].executor": "Run",
+    "Gradle.LoginTest.getLoginTest.executor": "Run",
+    "Gradle.WebFormTests.executor": "Run",
+    "Gradle.WebFormTests.findTextInputFormTest.executor": "Run",
+    "Gradle.WebFormTests.getDisabledInputTest.executor": "Run",
+    "Gradle.WebFormTests.getTextAreaInputTest.executor": "Run",
+    "Gradle.WebFormTests.inputFieldsTest.executor": "Run",
+    "Gradle.WebFormTests.openWebFormPageTest.executor": "Run",
+    "Gradle.WebFormTests.textAreaTest.executor": "Run",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "created/os/homeworks/16",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/olgasafronova/IdeaProjects/JUnit_Gradle_Selenium/src/test/java",
+    "onboarding.tips.debug.path": "/Users/olgasafronova/IdeaProjects/JUnit_Gradle_Selenium/src/main/java/safronova/Main.java",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.DeliveryCostCalculationTest.testDenyDelivery">
-    <configuration name="DeliveryCostCalculationTest.testCheapestOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.HomePageTests.urlHomePage">
+    <configuration name="HomePageTests.urlHomePage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -124,7 +134,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;DeliveryCostCalculationTest.testCheapestOrder&quot;" />
+            <option value="&quot;ui.tests.HomePageTests.urlHomePage&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -135,7 +145,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DeliveryCostCalculationTest.testDeliveryCost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="WebFormTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -148,7 +158,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;DeliveryCostCalculationTest.testDeliveryCost&quot;" />
+            <option value="&quot;ui.tests.WebFormTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -159,7 +169,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DeliveryCostCalculationTest.testDenyDelivery" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="WebFormTests.findTextInputFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -172,7 +182,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;DeliveryCostCalculationTest.testDenyDelivery&quot;" />
+            <option value="&quot;ui.tests.WebFormTests.findTextInputFormTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -183,7 +193,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DeliveryCostCalculationTest.testDenyDeliveryCost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="WebFormTests.inputFieldsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -196,7 +206,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;DeliveryCostCalculationTest.testDenyDeliveryCost&quot;" />
+            <option value="&quot;ui.tests.WebFormTests.inputFieldsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -207,7 +217,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DeliveryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="WebFormTests.textAreaTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -220,7 +230,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;DeliveryTest&quot;" />
+            <option value="&quot;ui.tests.WebFormTests.textAreaTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -233,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DeliveryCostCalculationTest.testDenyDelivery" />
-        <item itemvalue="Gradle.DeliveryCostCalculationTest.testDeliveryCost" />
-        <item itemvalue="Gradle.DeliveryCostCalculationTest.testDenyDeliveryCost" />
-        <item itemvalue="Gradle.DeliveryCostCalculationTest.testCheapestOrder" />
-        <item itemvalue="Gradle.DeliveryTest" />
+        <item itemvalue="Gradle.HomePageTests.urlHomePage" />
+        <item itemvalue="Gradle.WebFormTests.inputFieldsTest" />
+        <item itemvalue="Gradle.WebFormTests.textAreaTest" />
+        <item itemvalue="Gradle.WebFormTests" />
+        <item itemvalue="Gradle.WebFormTests.findTextInputFormTest" />
       </list>
     </recent_temporary>
   </component>
